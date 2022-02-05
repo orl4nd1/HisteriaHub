@@ -1,0 +1,145 @@
+##################################################
+#            Histeria Team, only it.             #
+#         » Website: www.histeria.win «          #
+##################################################
+
+## WORLD SETTINGS:
+
+X: 0
+Y: 96
+Z: 0
+
+## Prefix:
+
+PREFIX: "&4&lHisteria &7» "
+
+  ## Items:
+
+# SERVER SELECTOR
+
+SERVER_SELECTOR_NAME: "&c» Server Selector «"
+SERVER_SELECTOR_ITEM: WATCH
+SERVER_SELECTOR_SLOT: 4
+SERVER_SELECTOR_AMOUNT: 1
+SERVER_SELECTOR_INVENTORY_NAME: "&cServer Selector"
+
+# ENDER BUTT
+
+ENDER_BUTT_NAME: "&c» EnderButt «"
+ENDER_BUTT_SLOT: 0
+ENDER_BUTT_AMOUNT: 16
+
+# Visibility / Vanish
+
+VANISH_ON_ITEM_NAME: "&c» Show players «"
+VANISH_OFF_ITEM_NAME: "&c» Hide players «"
+VANISH_ACTIVATED: "&aNow you can see the other players."
+VANISH_DESACTIVATED: "&cNow you can't see the other players."
+
+## Server Selector Inventory:
+
+ITEM1_ENABLED: false
+ITEM_SERVER1: DIAMOND_SWORD
+NAME_SERVER1: "&cPowers Queue"
+LORE_SERVER1:
+  - '&7&m----------------------------------'
+  - '&7Status: &fWhitelist'
+  - ''
+  - '&7Hardcore Factions, DTR, Events'
+  - ''
+  - '&cFaction Sizes&f: 20 man, 0 ally'
+  - '&cMap Kit&f: Protection 1, Sharpness 1'
+  - ''
+  - '&cThis server supports 1.7 and 1.8 clients'
+  - '&7&m----------------------------------'
+COMMAND_SERVER1: "play Powers"
+
+## MISCELLANIOUS
+
+SPEED_EFFECT: true
+SPEED_LEVEL: 4
+DOUBLE_JUMP: false
+
+## DONT PUT THE "/" IN THE COMMAND_SERVER!!!!! (EXAMPLE: "SERVER PRACTICE")
+
+ITEM2_ENABLED: true
+ITEM_SERVER2: DIAMOND_SWORD
+NAME_SERVER2: "&cHCF &7(Right Click)"
+LORE_SERVER2:
+  - '&7&m----------------------------------'
+  - '&cStatus: &dWhitelisted'
+  - ''
+  - '&cHardcore Factions, DTR, Koth, Citadel'
+  - ''
+  - '&cFaction Sizes&f: 15 man, 1 ally'
+  - '&cMap Kit&f: Protection 1, Sharpness 1'
+  - ''
+  - '&eThis server supports 1.7 and 1.8 clients'
+  - '&7&m----------------------------------'
+COMMAND_SERVER2: "play HCF"
+
+## DONT PUT THE "/" IN THE COMMAND_SERVER!!!!! (EXAMPLE: "SERVER PRACTICE")
+
+ITEM3_ENABLED: false
+ITEM_SERVER3: DIAMOND_AXE
+NAME_SERVER3: "&9Kitmap Queue"
+LORE_SERVER3:
+  - '&7&m----------------------------------'
+  - '&9Status: &aOnline'
+  - ''
+  - '&9No Deathban, Practice HCF, Mini Events'
+  - ''
+  - '&9Faction Sizes&f: 15 man, 0 ally'
+  - '&9Map Kit&f: Protection 1, Sharpness 1'
+  - ''
+  - '&cThis server supports 1.7 and 1.8 clients'
+  - '&7&m----------------------------------'
+COMMAND_SERVER3: "play Kitmap"
+
+## DONT PUT THE "/" IN THE COMMAND_SERVER!!!!! (EXAMPLE: "SERVER PRACTICE")
+
+ITEM4_ENABLED: false
+ITEM_SERVER4: FISHING_ROD
+NAME_SERVER4: "&9OldHCF Queue"
+LORE_SERVER4:
+  - '&7&m----------------------------------'
+  - '&7Status: &aOnline'
+  - ''
+  - '&7Deathban, Practice HCF, Mini Events'
+  - ''
+  - '&9Faction Sizes&f: 30 man, 1 ally'
+  - '&9Map Kit&f: Protection 1, Sharpness 1'
+  - ''
+  - '&cThis server supports 1.7 and 1.8 clients'
+  - '&7&m----------------------------------'
+COMMAND_SERVER4: "play OldHCF"
+
+## ScoreBoard
+
+SCOREBOARD_SPACER: ""
+SCOREBOARD_TITLE: "&4&lHisteria &7(Hub #1)"
+SCOREBOARD_LINE: "&8&m--------------------------------"
+SCOREBOARD_WELCOME: "&cWelcome &e%player%"
+SCOREBOARD_RANK: "&cYour rank &e%rank%"
+SCOREBOARD_CONNECTED: "&cYou're connected in &eHub"
+SCOREBOARD_TOTAL: "&cTotal players: &e%bungee_total%"
+SCOREBOARD_HUB: "&cHub: &e%bungee_Hub%"
+SCOREBOARD_HCF: "&cPractice: &e%bungee_Practice%"
+# BLOCKS
+
+ON_BREAK: "&cYou can't break blocks in the Hub!"
+ON_PLACE: "&cYou can't place blocks in the Hub!"
+ON_DROP: "&cYou can't drop items in the Hub!"
+ON_PICKUP: "&cYou can't pickup items in the Hub!"
+
+# MOTD
+
+MOTD_LINE: "&8&m---------------------------------------------------"
+MOTD_WELCOME: "&cWelcome to &4Histeria &f&lNetwork&c!"
+MOTD_WEBSITE: "&8» &4&lTwitter: &ctwitter.com/histerianetwork"
+MOTD_STORE: "&8» &4&lStore: &cstore.histeria.win"
+MOTD_TEAMSPEAK: "&8» &4&lTeamSpeak: &cts.histeria.win"
+MOTD_CONNECTED: "&cYou're connected in &4&lHub &cof &4&lHisteria &f&lNetwork&c."
+
+ON_JOIN: "&8[&a»&8] &c%player%"
+ON_QUIT: "&8[&4»&8] &c%player%"

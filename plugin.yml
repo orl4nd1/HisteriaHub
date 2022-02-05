@@ -1,0 +1,14 @@
+name: HisteriaHub
+version: 0.3.6
+author: orl4nd1
+website: www.histeria.win
+description: A hubcore for Histeria Network by Histeria Team
+main: win.histeria.HisteriaHub.Main
+depend: [Vault, PermissionsEx]
+softdepend: [PlaceholderAPI]
+
+commands:
+  histeriahub:
+    aliases: [hubcore, histeria]
+    usage: /<command> reload
+    description: Recargar la configuracion del plugin.
